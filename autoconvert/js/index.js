@@ -5,14 +5,14 @@ $(document).ready(function(){
 
     var audioplay = document.createElement('audio');
 
+    if (audioplay.canPlayType('audio/ogg')) {
+        audioplay.setAttribute('src','audio/audio123.ogg');
+    }
+
     if (audioplay.canPlayType('audio/mpeg')) {
         audioplay.setAttribute('src','audio/audio123.mp3');
     }
 
-    if (audioplay.canPlayType('audio/ogg')) {
-        audioplay.setAttribute('src','audio/audio123.ogg');
-    }
-    
     audioplay.setAttribute('preload', 'auto');
 
     var timeline = new TimelineMax({repeat:0, onStart:function() {audioplay.play()}, onComplete:function() {audioplay.pause()}});
