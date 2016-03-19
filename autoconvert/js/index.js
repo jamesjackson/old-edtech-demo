@@ -15,6 +15,8 @@ $(document).ready(function(){
 
     audioplay.setAttribute('preload', 'auto');
 
+    audioplay.oncanplay = function () {
+
     var timeline = new TimelineMax({repeat:0, onStart:function() {audioplay.play()}, onComplete:function() {audioplay.pause()}});
 
     timeline.totalDuration(positions[positions.length - 1]);
@@ -22,5 +24,7 @@ $(document).ready(function(){
     for (i = 0; i < images.length; i++) {
         timeline.set(images[i], {css:{autoAlpha:1}}, positions[i]);
     }
+
+    };
 
 });
