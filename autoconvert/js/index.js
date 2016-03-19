@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
     var images = $('img');
-    var positions = [0, 24, 50, 65, 81, 112, 117, 121, 150, 165, 217, 228];
+    var positions = [0, 24, 50, 65, 81, 112, 117, 121, 150, 165, 217, 229];
 
     var audioplay = document.createElement('audio');
 
