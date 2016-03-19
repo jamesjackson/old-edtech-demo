@@ -5,6 +5,8 @@ $(document).ready(function(){
 
     var audioplay = document.createElement('audio');
     audioplay.setAttribute('src', 'audio/audio123.ogg');
+    audioplay.setAttribute('src', 'audio/audio123.mp3');
+    audioplay.setAttribute('preload', 'auto');
 
     var timeline = new TimelineMax({repeat:0, onStart:function() {audioplay.play()}, onComplete:function() {audioplay.pause()}});
 
