@@ -3,6 +3,9 @@ $(document).ready(function(){
     var images = $('img');
     var positions = [0, 24, 50, 65, 81, 112, 117, 121, 150, 165, 217, 229];
 
+
+    var pauseBtn = document.getElementById("pause");
+
     var audioplay = document.createElement('audio');
 
     if (audioplay.canPlayType('audio/mpeg')) {
@@ -25,6 +28,13 @@ $(document).ready(function(){
         timeline.set(images[i], {css:{autoAlpha:1}}, positions[i]);
     }
 
+    pauseBtn.onclick = function() {
+        timeline.paused(!timeline.paused());
+        pauseBtn.innerHTML = timeline.paused() ? "play" : "pause";
+        timeline.paused() ? audioplay.pause() : audioplay.play();
+    }
+
     };
+
 
 });

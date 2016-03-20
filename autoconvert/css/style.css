@@ -4,3 +4,26 @@ img{
 
 }
 
+.demo {
+    position:relative;
+    margin:20px auto;
+    width:960px;
+    height:500px;
+    background-color:#121212;
+    border-radius:12px;
+    overflow:hidden;
+    border:solid 4px #121212;
+}
+
+button {
+	padding:10px;
+	margin:0 10px;
+	width:120px;
+	cursor:pointer;
+}
+
+.nav {
+	width:600px;
+	margin:auto;
+	text-align:center;
+}
