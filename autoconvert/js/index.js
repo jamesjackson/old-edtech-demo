@@ -31,11 +31,11 @@ $(document).ready(function(){
 
     //timeline.set(pointer, {css:{autoAlpha:0.5, scale:0.5}}, 2);
 
-    timeline.set(pointer, {css:{autoAlpha:0.5, scale:0.5}}, 0);
+    //timeline.set(pointer, {css:{autoAlpha:0.5, scale:0.5}}, 0);
     //timeline.to(pointer, 3, {css:{autoAlpha:0.5, scale:0.5}}, 2);
 
-    timeline.to(pointer, 2, {right:300}, 3);
-    timeline.to(pointer, 2, {bottom:100}, 5);
+    //timeline.to(pointer, 2, {right:300}, 3);
+    //timeline.to(pointer, 2, {bottom:100}, 5);
 
 
     //timeline.to(pointer, 10, {
