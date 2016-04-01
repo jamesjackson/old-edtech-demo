@@ -1,0 +1,36 @@
+CACHE MANIFEST
+
+#version 1.0 3-31-2016
+
+CACHE:
+
+#images
+http://jamesjackson.github.io/autoconvert/img/pointer.svg
+http://jamesjackson.github.io/autoconvert/img/test10.svg
+http://jamesjackson.github.io/autoconvert/img/test11.svg
+http://jamesjackson.github.io/autoconvert/img/test12.svg
+http://jamesjackson.github.io/autoconvert/img/test13.svg
+http://jamesjackson.github.io/autoconvert/img/test14.svg
+http://jamesjackson.github.io/autoconvert/img/test15.svg
+http://jamesjackson.github.io/autoconvert/img/test16.svg
+http://jamesjackson.github.io/autoconvert/img/test5.svg
+http://jamesjackson.github.io/autoconvert/img/test7.svg
+http://jamesjackson.github.io/autoconvert/img/test8.svg
+http://jamesjackson.github.io/autoconvert/img/test9.svg
+
+#internal HTML documents
+
+
+#style sheets
+http://jamesjackson.github.io/autoconvert/css/style.css
+
+#style sheet images
+
+
+#javascript files
+http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js
+http://cdnjs.cloudflare.com/ajax/libs/gsap/1.9.3/TweenMax.min.js
+http://jamesjackson.github.io/autoconvert/js/index.js
+
+NETWORK:
+*
