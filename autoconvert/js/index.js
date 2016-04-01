@@ -33,7 +33,7 @@ $(document).ready(function(){
     timeline.set(pointer, {autoAlpha:0.5, scale:0.5, x:25, y:75}, 32);
     timeline.to(pointer, 1, {autoAlpha:0.5, scale:0.5, x:51, y:58}, 35);
     timeline.to(pointer, 1, {autoAlpha:0.5, scale:0.5, x:131, y:4}, 39);
-
+    timeline.set(pointer, {autoAlpha:0}, 45);
 
     pauseBtn.onclick = function() {
         timeline.paused(!timeline.paused());
