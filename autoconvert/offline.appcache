@@ -1,6 +1,6 @@
 CACHE MANIFEST
 
-#version 1.0 3-31-2016
+#version 2.0 3-31-2016
 
 CACHE:
 
@@ -20,7 +20,7 @@ http://jamesjackson.github.io/autoconvert/img/test9.svg
 
 #audio
 
-http://jamesjackson.github.io/autoconvert/audio/audio123.ogg 
+http://jamesjackson.github.io/autoconvert/audio/audio123.ogg
 
 #internal HTML documents
 
